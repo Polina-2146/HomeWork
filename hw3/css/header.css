@@ -1,0 +1,25 @@
+.header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin:auto;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+
+.menu_iten {
+    display:inline-block;
+    margin-right: 120px;
+
+}
+
+.menu_iten:hover {
+color: #25b4f5;
+}
+
+.menu_iten:last-child {
+    margin-right: 0;
+}
