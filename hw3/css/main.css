@@ -21,13 +21,13 @@ text-align: left;
 margin-right: 0;
 }
 
-.section_img {
+.section_img{
     width: 420px;
     height: 281px;
     margin-bottom: 32px;
 }
 
-.img_title {
+.img_title{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     font-weight: 300;
