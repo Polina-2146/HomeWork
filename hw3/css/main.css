@@ -25,6 +25,7 @@ margin-right: 0;
     width: 420px;
     height: 281px;
     margin-bottom: 32px;
+    margin-left: 75px;
 }
 
 .img_title{
@@ -32,35 +33,38 @@ margin-right: 0;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #000;
-    color: rgba (180,158,255);
+    color:#B4AD9E;
+    /*color:#B4AD9E(180,158,255);*/
     margin-bottom: 28px;
+    margin-left: 75px;
 }
 
 .section_title {
     font-weight: 400;
     font-size: 30px;
-    color: rgba (98,98,98,255);
+    color: rgba(98,98,98,255);
     margin-bottom: 34px;
+    margin-left: 75px;
 }
 
 .section_text {
-    color: rgba (98,98,98,255);
+    color: rgba(98,98,98,255);
+    margin-left: 75px;
 }
 
 
 .btn {
     font-family: 'Playfair Display', serif;
-    font-style: 20px;
+    font-size: 20px;
     font-weight: 400;
-    color: rgba (98,98,98,255) ;  
-    padding: 22px 32px;
+    color: rgba(98,98,98,255) ;  
+    
+    padding: 20px 53px 20px 51px ;
+    
     margin-bottom: 70px;
-    border: 1px solid rgba (98,98,98,255);
+    border: 1px solid rgba(98,98,98,255);
     cursor: pointer;
-}
-
-.btn:hover {
-    background-color:#25b4f5;
+    margin-left: 380px;
+    
 }
 
