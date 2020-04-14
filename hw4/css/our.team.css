@@ -1,0 +1,94 @@
+.team {
+    width: 1163px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 109px;
+    margin-top: 1px;
+   
+}
+
+.who_we_are {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+   
+}
+
+.meet_team {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+}
+
+.meet_team::after {
+    content: '';
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+}
+
+.lorem {
+    color: #999999;
+    text-align: center;
+    font-size: 15px;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    height: 39px;
+    margin-bottom: 68px;
+    
+    
+}
+
+
+
+
+
+
+.team_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden_box {
+  width: 380px;
+    height: 470px;
+    
+    
+}
+
+.team_photo {
+    width: 380px;
+    height: 470px;
+  
+}
+
+
+
+.team_name {
+    
+    font-family: 'Monserat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 31px;
+    
+}
+
+.team_profi {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #bfbfbf
+}

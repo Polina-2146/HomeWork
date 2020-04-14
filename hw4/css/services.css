@@ -1,0 +1,73 @@
+.services {
+    width: 1163px;
+    font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ margin: auto;
+}
+
+.services_title {
+    font-family: 'Kaushan Script', cursive;
+ font-size: 24px;
+ font-weight: 400;
+ color: #333333;
+ margin-bottom: 22px;
+}
+
+.services_main_title {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+}
+
+.services_main_title::after {
+ content: '';
+ width: 61px;
+ height: 4px;
+ background-color: #F38181;
+ display:block;
+ margin: auto;
+ margin-top: 41px;
+
+}
+
+.services_card {
+    width: 330px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card_img {
+    height: 32px;
+    min-width: 32px;
+   
+}
+.card_text_wrapper {
+    width: 269px;
+}
+
+.card_title {
+    font-size: 14px;
+ font-weight: 400;
+ color: #333333;
+ text-align-last:left ;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+}
+
+.card_text {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align:left;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
