@@ -31,8 +31,13 @@
     border-bottom: 4px solid transparent;
 }
 
+
+
 .menu_item_link:hover {
     color:#F38181;
   padding-bottom: 11px;
-  border-bottom:4px solid transparent ;
+    border-bottom:4px solid #F38181  ;
+
+  
 }
+
