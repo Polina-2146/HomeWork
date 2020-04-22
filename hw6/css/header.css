@@ -1,0 +1,44 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 1163px;
+ text-align: center;
+ margin: auto;
+ margin-top: 28px;
+ margin-bottom: 100px;
+}
+
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+    color: gold;
+}
+
+.menu_list {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.menu_item_link {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+}
+
+
+
+.menu_item_link:hover {
+    color:gold;
+  padding-bottom: 11px;
+    border-bottom:4px solid transparent  ;
+
+  
+}

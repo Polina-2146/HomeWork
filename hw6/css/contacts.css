@@ -1,0 +1,33 @@
+.footer {
+ 
+    background-color: #000000;
+
+}
+
+.pod_tittle {
+
+font-family: 'Kaushan Script', cursive;
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 22px;
+color: #777777;
+text-align: center;
+}
+
+
+.Contact_us {
+margin-top: 230px;
+font-family: 'Montserrat', sans-serif;
+color: #FFFFFF;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 64px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.footer_img {
+    margin: auto;
+
+
+}

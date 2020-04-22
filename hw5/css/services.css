@@ -49,6 +49,7 @@
     width: 269px;
 }
 
+/*
 .card_title {
     font-size: 14px;
  font-weight: 400;
@@ -70,4 +71,35 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+*/
+
+
+
+.card_title::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+
+.card_text {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    text-align: left;
+    padding-left: 51px;
+}
+
+.services_card {
+    width: 330px;
+    margin-bottom: 100px;
 }

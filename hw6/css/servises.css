@@ -1,0 +1,64 @@
+.services {
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ margin: auto;
+ padding: 0rem;
+margin: 0 auto;
+text-align: center
+}
+
+.services_title {
+    font-family: 'Kaushan Script', cursive;
+ font-size: 24px;
+ font-weight: 400;
+ margin-bottom: 22px;
+ color: rgba(119, 119, 119, 255);
+text-align: center;
+}
+
+.services_main_title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(34, 34, 34, 255);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 127px;
+}
+
+
+.team_wrapper {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    }
+    
+    .team_card {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto 50px;
+    }
+    
+    .team_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    }
+
+    .tittle {
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Slab', serif;
+    }
+
+    .text {
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+
+    }
+   
