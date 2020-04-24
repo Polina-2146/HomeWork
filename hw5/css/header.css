@@ -1,13 +1,18 @@
 .header {
-    width: 1143px;
+    width: 1200px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
 position: fixed;
  align-items: center;
- width: 1163px;
  text-align: center;
- margin: auto;
- margin-top: 28px;
- margin-bottom: 100px;
+padding: 28px 0 28px;
+top: 0;
+ display: flex;
+ justify-content: space-between;
+z-index: 3;
+background-color: #fff;
+margin-left: 360px;
+
 }
 
 .menu {
@@ -23,7 +28,6 @@ position: fixed;
 
 .menu_list {
     width: 500px;
-    position: fixed;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 200;

@@ -1,3 +1,11 @@
+.main {
+    padding-top: 193px;
+    width: 1200px;
+    margin: auto;
+}
+
+
+
 .services {
     width: 1163px;
     font-family: 'Montserrat', sans-serif;
@@ -40,6 +48,16 @@
     margin-bottom: 80px;
 }
 
+
+.card_title {
+    font-size: 14px;
+ font-weight: 400;
+ color: #333333;
+ text-align-last:left ;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+}
+
 .card_img {
     height: 32px;
     min-width: 32px;
@@ -50,6 +68,11 @@
 }
 
 
+.card_container {
+display: flex;
+justify-content: space-between;
+flex-wrap:wrap;
+}
 
 
 .card_title::before {
@@ -64,6 +87,18 @@
 }
 
 
+
+.photo::before, .web::before, .creativity::before, .seo::before, .html::before {
+content: '';
+display: inline-block;
+width: 32px;
+height: 32px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+vertical-align: middle;
+margin-right: 30px;
+}
 
 .card_text {
     color: #999999;
