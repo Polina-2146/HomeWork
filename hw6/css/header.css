@@ -8,6 +8,8 @@
  margin: auto;
  margin-top: 28px;
  margin-bottom: 100px;
+ height: 192px;
+ width: 1401px;
 }
 
 
@@ -17,12 +19,15 @@
     font-weight: 400;
     font-size: 30px;
     color: gold;
+    margin-left: 237px;
 }
 
 .menu_list {
     width: 500px;
     display: flex;
     justify-content: space-between;
+    margin-right: 230px;
+    
    
 }
 .menu_item_link {
@@ -31,6 +36,7 @@
     font-size: 14px;
     font-weight: 400;
     border-bottom: 4px solid transparent;
+   
 }
 
 
