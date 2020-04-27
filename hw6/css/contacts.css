@@ -63,11 +63,14 @@ padding: 20px 20px 20px;
 .btn {
     background-color: gold;
     color: white;
-width: 240px;
+width: 300px;
 height: 67px;
-display: flex;
-justify-content: center;
-align-self: flex-end;
+position: relative;
+top: 280px;
+right: 550px;
+
+
+
 
 }  
 
