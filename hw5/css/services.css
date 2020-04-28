@@ -88,17 +88,7 @@ flex-wrap:wrap;
 
 
 
-.photo::before, .web::before, .creativity::before, .seo::before, .html::before {
-content: '';
-display: inline-block;
-width: 32px;
-height: 32px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-vertical-align: middle;
-margin-right: 30px;
-}
+
 
 .card_text {
     color: #999999;
@@ -113,3 +103,15 @@ margin-right: 30px;
     width: 330px;
     margin-bottom: 100px;
 }
+
+.photo::before, .web::before, .creativity::before, .seo::before, .html::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    margin-right: 30px;
+    }
