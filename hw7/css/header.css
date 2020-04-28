@@ -1,0 +1,66 @@
+.header_wrapper {
+    background-image: url(../image/VectorSmartObject@1X.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 322px;
+    height: 542px;
+    
+}
+
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.logo {
+font-size: 14px;
+font-weight: 400;
+
+}
+
+.log_in {
+cursor: pointer;
+
+border-radius: 50%;
+    border: 2px solid white;
+padding: 19px 12px 19px 12px;
+
+}
+
+
+.name {
+text-align: center;
+margin-bottom: 38px;
+}
+
+.tittle {
+    text-align: center;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+  border-radius: 25%;
+    padding: 14px 50px;
+    border: 3px solid red;
+    background-color: transparent;
+    margin-bottom: 140px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
