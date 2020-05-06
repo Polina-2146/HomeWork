@@ -44,43 +44,45 @@ text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 115px;
-  text-align: center;
+ 
+  align-items: center;
     }
     
     .team_card {
     width: 200px;
     height: 200px;
-    text-align: center;
     margin: 0 auto 50px;
+    text-align: right;
+    
     }
     
     .team_img {
     width: 100px;
     height: 100px;
-    border-radius: 46%;
-    border: 3px solid gold;
+    border-radius: 100px;
+    border: 3px solid gold ;
 padding: 16px 13px 16px 14px;
+align-items: center;
     }
 
     .tittle {
         margin-top: 27px;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Roboto Slab', serif;
-text-align: center;
+text-align: right;
 font-size: 18px;
 margin-bottom: 15px;
-
+text-align: right;
     }
 
-    .text {
+    .p {
 font-family: 'Kaushan Script', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;
 color: #777777;
-width: 274px;
+width: 300px;
 height: 57px;
 text-align: center;
-
 
     }
    

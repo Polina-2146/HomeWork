@@ -1,8 +1,12 @@
 .footer {
- width: 1400px;
+
  height: 678px;
     background-color: #222222;;
-margin: auto;
+
+background-image: url(../image/Map.png);
+background-repeat: no-repeat;
+
+background-position: right;
 
 }
 
@@ -40,7 +44,7 @@ margin-top: 120px;
       
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
-      border-radius: 6px;
+     
 color: #222222;
 padding: 20px 20px 20px;
 
@@ -50,11 +54,11 @@ padding: 20px 20px 20px;
 
   .msg {
       width: 466px;
-      height:238px;
+      height:236px;
       padding-left: 20px;
       padding-top: 20px;
       padding-bottom: 180px;
-      margin-bottom: 30px;
+      
       
  
    
@@ -68,6 +72,8 @@ height: 67px;
 position: relative;
 top: 280px;
 right: 550px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
 
 
 
