@@ -1,0 +1,55 @@
+.wrapper-button {
+    position: relative;
+    left: 55%;
+    transform: translate(-50%, 0);
+
+}
+
+
+.button {
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 10px 50px;
+    border: 3px solid red;
+    color: red;
+    width: 280px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 55px;
+  
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .wrapper-button {
+            position: relative;
+            transform: translate(-20%, 100%);
+         
+        }
+        
+        
+        .button {
+           
+            width: 193px;
+          padding-top: 40px;
+            padding: 8px 30px;
+            
+            }
+        
+
+    }
+
+
+
+    @media screen and (min-width: 1200px) {
+        .wrapper-button { 
+            position: relative;
+            left: -6%;
+           
+            transform: translate(50%, 40%);
+        }
+
+        .button {
+            border: 2px solid red;
+        }
+    }
