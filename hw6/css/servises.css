@@ -1,16 +1,16 @@
 .main {
-    width: 1401px;
-    height: 420px;
-    margin: auto;
+    max-width: 1400px;
+    height: 500px;
+    margin-bottom: 100px;
 }
 
 
-.services {
+.Services {
     width: 900px;
     font-family: 'Montserrat', sans-serif;
- text-align: center;
- margin: auto;
- padding: 0rem;
+
+
+
 margin: 0 auto;
 text-align: center
 }
@@ -52,17 +52,23 @@ text-align: center;
     width: 200px;
     height: 200px;
     margin: 0 auto 50px;
-    text-align: right;
+  
     
     }
     
-    .team_img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border: 3px solid gold ;
-padding: 16px 13px 16px 14px;
-align-items: center;
+
+    .img_wrapper {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #fed136 ;
+    position: relative;
+    left: 68%;
+    /* top: -60px; */
+    transform: translate(-50%, 0);
     }
 
     .tittle {
@@ -72,7 +78,7 @@ font-family: 'Roboto Slab', serif;
 text-align: right;
 font-size: 18px;
 margin-bottom: 15px;
-text-align: right;
+
     }
 
     .p {
@@ -86,3 +92,25 @@ text-align: center;
 
     }
    
+    /* .Contact_us {
+        padding-top: 110px;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 700;
+        margin: auto;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 120px;
+        }
+
+        .pod_tittle {
+
+            font-family: 'Kaushan Script', cursive;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 75px;
+            color: #777777;
+            text-align: center;
+            margin: auto;
+            } */

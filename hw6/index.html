@@ -7,6 +7,7 @@
     <title>hw6</title>
 </head>
 <body>
+
     <header class='header'> 
 
         <a href="#" class='logo_link'>
@@ -43,15 +44,18 @@
 
     <div class='team_wrapper'>
         <div class='team_card'>
-        <img src="./image/Icon-Basket.png" alt="basket" class='team_img'>
+            <div class='img_wrapper'>
+        <img src="./image/Icon-Basket.png" alt="basket" class='team_img'></div>
         <h4 class='tittle'> E-Commerce</h4>
         <p  class='p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta cumque illo iure! Officiis harum corporis possimus </p>
-    </div>
+    
+</div>
     
 
    
         <div class='team_card'>
-        <img src="./image/Icon-Laptop.png" alt="Responsive Web" class='team_img'>
+            <div class='img_wrapper'>
+        <img src="./image/Icon-Laptop.png" alt="Responsive Web" class='team_img'></div>
         <h4 class='tittle'> Responsive Web</h4>
         <p class='p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta cumque illo iure! Officiis harum corporis possimus</p>
     </div>
@@ -59,7 +63,8 @@
 
   
         <div class='team_card'>
-        <img src="./image/Icon-Locked.png" alt="Web Security" class='team_img'>
+            <div class='img_wrapper'>
+        <img src="./image/Icon-Locked.png" alt="Web Security" class='team_img'></div>
         <h4 class='tittle'> Web Security</h4>
         <p class='p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta cumque illo iure! Officiis harum corporis possimus </p>
     </div>
@@ -72,14 +77,15 @@
 
 
 
-
-<footer class='footer'>
+<footer>
+    <section class='section2'>
+        <div class='section-wrapper'>
     <h4 class='Contact_us'>Contact us</h4>
-    <h4 class='pod_tittle'> Proin iaculis purus consequat sem cure. </h4>
+    <h4 class='sub_tittle'> Proin iaculis purus consequat sem cure. </h4>
   
     <form action="#" method="GET" class="form">
-        <div class='container'>
-            <div class='name_mail_sbj'>
+        <div class='form_box'>
+            <div class='input_box'>
        
         <input type="text" name="name" id="name_id" placeholder=" your name*" class='input' autofocus required  />
   
@@ -92,20 +98,15 @@
     </div>
 
 
-<textarea name="text" placeholder=" Your massage*" id="Your_massage_id" cols="30" rows="10" class='input msg'></textarea>
+<textarea name="massage" placeholder=" Your massage*" id="Your_massage_id" cols="30" rows="10" class=' msg'></textarea>
 
-
-<!--        
-        <input type="text" name="Your massage*" id="Your_massage_id" placeholder=" Your massage*" class='input msg' />
-         -->
-      
-        <input type="submit" value="Send Message" id="submit_id"  class='input btn' />
-        
   
             
   </div>
-   
+  <input type="submit" value="Send Message" id="submit_id"  class='submit' />
     </form>
+</div>
+</section>
 </footer>
 
 </body>

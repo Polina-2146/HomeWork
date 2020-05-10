@@ -4,13 +4,15 @@
  justify-content: space-between;
  align-items: center;
 
- text-align: center;
+ /* text-align: center; */
  /* margin: auto;
- margin-top: 28px;
- margin-bottom: 100px; */
- height: 100px;
- width: 1401px;
+ margin-top: 28px; */
+
+ height: 200px;
+ width: 1393px;
 }
+
+
 
 .menu {
     margin-left: 500px;
