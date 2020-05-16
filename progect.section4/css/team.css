@@ -1,0 +1,263 @@
+.team {
+width: 320px;
+margin: auto;
+}
+  
+  .team__header {
+      margin-top: 35px;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+text-align: center;
+color: #330cf4;
+margin-bottom: 37px;
+  }
+
+  .team__header::before {
+      background-color: #babdc1;
+      content: '';
+ width: 60px;
+ height: 1px;
+ display:block;
+ margin: auto;
+ margin-left: 22px;
+ position: relative;
+ left: 5%;
+ top: 10px;
+  }
+
+  .team__header::after {
+    background-color: #babdc1;
+    content: '';
+width: 60px;
+height: 1.5px;
+margin: auto ;
+display:block;
+margin-right: 22px;
+position: relative;
+ right: 5%;
+ bottom: 10px;
+}
+
+  
+  .team__intro {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+      font-size: 16px;
+      /* line-height: 24px; */
+      text-align: center;
+     margin: 0 auto;
+     width: 253px;
+     height: 113px;
+      margin-bottom: 38px;
+      color: #5b646e;
+    }
+     
+    .team__list {
+      width: 92%;
+     margin: 0 auto;
+   
+    }
+     
+    .team__member {
+      position: relative;
+      width: 270px;
+    }
+     
+    .member__name {
+      font-family: 'Dancing Script', cursive;
+        /* font-family: 'Open Sans', sans-serif; */
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 20px;
+      transition: 0.6s;
+    }
+     
+    .member__position {
+      text-transform: uppercase;
+      font-family: 'Playfair Display', serif;
+  margin-bottom: 51px;
+      line-height: 24px;
+      text-align: center;
+  margin-top: 5px;
+  /* font-family: 'Open Sans', sans-serif; */
+      font-weight: 400;
+      font-size: 15px;
+      color: #bfbfbf
+     
+    }
+     
+    .member__photo {
+      width: 270px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      
+    }
+     
+    .overflow {
+      width: 270px;
+      height: 300px;
+      overflow: hidden;
+    }
+     
+    .hover__box {
+      display: none;
+      width: 270px;
+      height: 300px;
+    background-color:#6044ecb4 ;
+     
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: 0.6s;
+      z-index: 1;
+    }
+     
+    .team__member:hover .hover__box {
+      display: block;
+      box-shadow: 0px 0px 17px rgba(14, 0, 197, 0.8);
+      /* box-shadow: 0px 0px 17px #1ab798; */
+    }
+     
+    .team__member:hover .member__name {
+      color: #330cf4;
+      font-size: 24px;
+    }
+     
+    .quote {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+      font-size: 12px;
+      line-height: 24px;
+     
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 30%;
+    }
+     
+    .social-links {
+      display: flex;
+      justify-content: center;
+  
+     
+      align-items: center;
+    }
+     
+    .member-social-link {
+      display: inline-block;
+      width: 43px;
+      height: 42px;
+      margin: 4px;
+      background-color: rgba(0, 0, 0, 0.4);
+      background-image: url(../img/twitter@1X.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      /* border-radius: 5px; */
+    }
+     
+    .member-social-link:nth-of-type(2) {
+      background-image: url(../img/facebook@1X.png);
+    }
+     
+    .member-social-link:nth-of-type(3) {
+      background-image: url(../img/linkedin@1X.png);
+    }
+     
+    .team__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 80px;
+      padding: 0;
+    }
+     
+
+    @media screen and (min-width: 768px) {
+        .team {
+            width: 768px;
+            height: 1220px;
+            }
+
+           
+
+
+            .team__header::before {
+               
+           position: relative;
+           left: 30%;
+           top: 10px;
+            }
+          
+            .team__header::after {
+             
+          position: relative;
+           right: 30%;
+           bottom: 10px;
+          }
+          
+            
+            .team__intro {
+             
+               width: 580px;
+               height: 70px;
+                margin-bottom: 70px;
+                font-weight: 500;
+              }
+
+
+              .member__position {
+                  margin-bottom: 62px;
+              }
+
+
+
+
+
+    }
+
+
+
+
+
+
+    @media screen and (min-width: 1200px) {
+        .team {
+            width: 1200px;
+            height: 775px;
+            }
+
+    
+    
+            .team__header::before {
+                   
+               position: relative;
+               left: 38%;
+             
+                }
+              
+                .team__header::after {
+                 
+              position: relative;
+               right: 38%;
+              
+              }
+              
+                
+                .team__intro {
+                 
+                   width: 975px;
+                   height: 65px;
+                    margin-bottom: 100px;
+                    font-weight: 400;
+                  }
+
+                  .member__position {
+                      margin-bottom: 130px;
+                  }
+
+    }
