@@ -106,14 +106,14 @@ margin: auto;
       top: 0;
       left: 0; 
 
-       transition: 5s linear ;
+       transition: 1s linear ;
      opacity: 0;
      z-index: 1;   
 
     }
 
 
-      .team__member:hover > .member__photo {
+      .team__member:hover  .hover__box {
      
       box-shadow: 0px 0px 17px rgba(14, 0, 197, 0.8);
      transition: 3s;
