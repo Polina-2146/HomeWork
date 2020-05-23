@@ -46,7 +46,7 @@ margin: auto;
     }
      
     .team__list {
-      width: 92%;
+     
      margin: 0 auto;
    
     }
@@ -169,7 +169,7 @@ margin: auto;
     }
   
     .team__member-social-link:hover {
-      background-color:  rgba(14, 0, 197, 0.8);
+      background-color:  rgba(0, 68, 255, 0.8);
     } 
   
 
