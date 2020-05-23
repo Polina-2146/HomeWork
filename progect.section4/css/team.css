@@ -46,7 +46,7 @@ margin: auto;
     }
      
     .team__list {
-     
+     width: 100%;
      margin: 0 auto;
    
     }
@@ -175,12 +175,6 @@ margin: auto;
 
     @media screen and (min-width: 768px) {
         
-
-           
-
-
-           
-          
             
             .team__intro {
              
@@ -214,13 +208,11 @@ margin: auto;
 
     @media screen and (min-width: 1200px) {
        
+.team__list {
+width: 900px;
 
-           
-    
-    
-          
-              
-                
+}
+             
                 .team__intro {
                  
                  
@@ -231,17 +223,5 @@ margin: auto;
                   .team__member {
                       margin-bottom: 130px;
                   }
-
-.team__member:nth-of-type(4) {
-  position: absolute;
-  top: 88%;
-  left: 25%; 
-}
-
-.team__member:nth-of-type(5) {
-  position: absolute;
-  top: 88%;
-  right: 20%; 
-}
 
     }
