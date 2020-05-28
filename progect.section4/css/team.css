@@ -54,8 +54,8 @@ margin: auto;
     .team__member {
       position: relative;
       width: 270px;
-      margin-bottom: 51px;
-      margin: 0 auto;
+      /* margin-bottom: 50px; */
+      margin: 0 auto 50px;
     }
      
     .member__name {
@@ -189,7 +189,7 @@ transition: 0.3s linear;
 
 
 
-              .team__membern {
+              .team__member {
                   margin-bottom: 62px;
               }
 
@@ -213,7 +213,7 @@ transition: 0.3s linear;
     @media screen and (min-width: 1200px) {
        
 .team__list {
-width: 900px;
+width: 800px;
 
 }
              
