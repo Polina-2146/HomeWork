@@ -1,0 +1,97 @@
+.contacts-section {
+  background-image: url(../img/tree.jpg);
+   
+   background-color:#090c1a;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+  }
+   
+
+.tittle-footer {
+    color:whitesmoke;
+   padding-top: 100px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+  
+   
+  .footer-text {
+    width: 40%;
+    font-family: 'Playfair Display', serif cursive;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 40px auto;
+  }
+   
+  .footer-link {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius:25px;
+   background-image: url(../img/instagram@1X.png);
+    margin: 5px;
+  }
+   
+  .footer-link:nth-of-type(1) {
+   background-image: url(../img/facebook@1X.png);
+   
+    background-color: #e2f7ff;
+  }
+   
+  .footer-link:nth-of-type(2) {
+   background-image: url(../img/twitter@1X.png);
+   
+    background-color: #fffddb;
+  }
+   
+  /* .footer-link:nth-of-type(3) {
+    /* добавь сюда свойство background-image 
+   
+    background-color: #e1ffdd;
+  } */
+   
+  .footer-socials {
+    margin-bottom: 40px;
+  }
+   
+  .phone {
+    color: #bface2;
+    margin-bottom: 12px;
+  }
+   
+  .mail {
+    color: rgba(87, 202, 255, 0.602);
+    margin-bottom: 50px;
+  }
+   
+  hr {
+    margin-bottom: 10px;
+color: #808080c7;
+
+  }
+   
+  .copyright {
+   
+    font-size: 14px;
+    line-height:1.5;
+   color:#808080c7;
+    
+   font-family: 'Amiri', serif;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  

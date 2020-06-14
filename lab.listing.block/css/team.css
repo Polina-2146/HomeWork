@@ -1,0 +1,136 @@
+.team-section {
+  z-index: 0;
+}
+
+
+
+.team-intro {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+   margin: 0 auto;
+   width: 400px;
+    margin-bottom: 100px;
+  }
+   
+  .team-list {
+    width: 92%;
+   margin: 0 auto;
+ 
+  }
+   
+  .team-member {
+    position: relative;
+    width: 270px;
+  }
+   
+  .member-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.6s;
+  }
+   
+  .member-position {
+text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;
+margin-top: 5px;
+font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #bfbfbf
+   
+  }
+   
+  .member-photo {
+    width: 270px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+  }
+   
+  .overflow {
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+  }
+   
+  .hover-box {
+    display: none;
+    width: 270px;
+    height: 300px;
+  background: linear-gradient(rgba(243, 129, 129, 0.5), rgba(252, 227,138, 0.5));
+   
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.6s;
+    z-index: 1;
+  }
+   
+  .team-member:hover .hover-box {
+    display: block;
+    box-shadow: 0px 0px 17px rgba(252, 227,138, 0.8);
+    /* box-shadow: 0px 0px 17px #1ab798; */
+  }
+   
+  .team-member:hover .member-name {
+    color: #F4A460;
+    font-size: 24px;
+  }
+   
+  .quote {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40%;
+  }
+   
+  .social-links {
+    display: flex;
+    justify-content: center;
+
+   
+    align-items: center;
+  }
+   
+  .member-social-link {
+    display: inline-block;
+    width: 43px;
+    height: 42px;
+    margin: 4px;
+    background-color: #ffffff;
+    background-image: url(../img/instagram@1X.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 5px;
+  }
+   
+  .member-social-link:nth-of-type(2) {
+    background-image: url(../img/facebook@1X.png);
+  }
+   
+  .member-social-link:nth-of-type(3) {
+    background-image: url(../img/twitter@1X.png);
+  }
+   
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    padding: 0;
+  }
+   
+  
